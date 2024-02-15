@@ -1,0 +1,112 @@
+.footer{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    background:white;
+    padding:30px 0 30px;
+    font-size:15px;
+    font-weight: 600;
+    line-height:20px;
+    
+}
+.row{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    justify-content:center;
+    
+    
+}
+.col{
+    flex-basis:25%;
+    margin:auto;
+    text-align:center;
+}
+.logo{
+    width:80px;
+    margin:25px 0;
+}
+.col h3{
+    width:fit-content;
+    margin-bottom:20px;
+    position:relative;
+}
+ul li{
+    list-style:none;
+    margin-bottom:12px;
+}
+ul li a{
+    text-decoration:none;
+}
+.social-icons{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands,.fa-regular{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:none;
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+    margin-right:8px;
+}
+form input{
+    background: transparent;
+    border:0.5px solid black;
+    border-radius: 20px;
+    height:30px;
+    margin-left:6px;
+}
+.social-icons form i {
+    margin-right: 2px;
+  }
+
+.social-icons form input[type="email"] {
+    margin-right: 5px;
+  }
+#media i{
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+}
+.fa-facebook:hover{
+        background-color: rgb(39, 39, 131);
+        color:white;
+        cursor:pointer;
+        width:45px;
+        height: 45px;
+        transition:0.3s ease-in-out;
+}
+.fa-instagram:hover{
+    background-color: rgb(180, 40, 180);
+    color:white;
+    width:45px;
+    height: 45px;
+    cursor:pointer;
+    transition:0.3s ease-in-out;
+}
+.fa-twitter:hover{
+    background-color: rgb(88, 188, 247);
+    color:white;
+    width:45px;
+    height: 45px;
+    cursor:pointer;
+    transition:0.3s ease-in-out;
+}
+.fa-google:hover{
+    background-color: rgb(204, 16, 57);
+    color:white;
+    width:45px;
+    height: 45px;
+    cursor:pointer;
+    transition:0.3s ease-in-out;
+}   
+
+#member
+{
+    font-size: 30px;
+}
